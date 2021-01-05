@@ -1,13 +1,15 @@
 <template>
-  <div>Test</div>
+  <ColorsComponent />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-// import NavbarComponent from '@/components/NavbarComponent.vue';
+import ColorsComponent from '@/components/ColorsComponent.vue';
 
 export default defineComponent({
   name: 'HomeView',
-  components: {},
+  components: {
+    ColorsComponent,
+  },
 });
 </script>

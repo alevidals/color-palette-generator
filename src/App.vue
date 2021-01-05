@@ -13,4 +13,10 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+body {
+  max-height: 100vh;
+  height: 100vh;
+  background-color: #0c0b10;
+}
+</style>
