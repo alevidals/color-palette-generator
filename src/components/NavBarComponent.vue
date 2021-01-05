@@ -1,14 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img
-          src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
-          height="30"
-          alt=""
-          loading="lazy"
-        />
-      </a>
+      <!-- <a class="navbar-brand" href="#"> -->
+      <img src="../assets/icon.png" height="30" alt="" loading="lazy" />
+      <!-- </a> -->
       <ul class="navbar-nav">
         <li class="nav-item me-2">
           <div class="dropdown">
