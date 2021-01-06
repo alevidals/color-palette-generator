@@ -8,12 +8,12 @@ PdfMakeWrapper.setFonts(pdfFonts);
 export default function createPDF(data: ComputedRef<Colors[]>) {
   const pdf = new PdfMakeWrapper();
   pdf.info({
-    title: 'Palette Color',
-    author: 'palette-color-alevidals',
+    title: 'Colorly',
+    author: 'Colorly',
   });
   pdf.pageMargins([40, 60, 40, 60]);
   pdf.add(
-    new Txt('Colors palette')
+    new Txt('Colorly')
       .color('black')
       .bold()
       .fontSize(45).end,
@@ -32,7 +32,7 @@ export default function createPDF(data: ComputedRef<Colors[]>) {
     pdf.add(pdf.ln(2));
   });
   pdf.add(
-    new Txt('https://github.com/alevidals/color-palette-generator')
+    new Txt('https://github.com/alevidals/colorly')
       .bold()
       .color('#fff')
       .background('#000').end,

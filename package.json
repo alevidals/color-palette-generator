@@ -1,5 +1,5 @@
 {
-  "name": "color-palette",
+  "name": "Colorly",
   "version": "0.1.0",
   "description": "App to generate random color palette and export it to pdf.",
   "private": true,
