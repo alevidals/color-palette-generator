@@ -1,4 +1,4 @@
-<img src="./build/icons/icon.png" width="150">
+<img src="./src/assets/icon.png" width="150">
 
 ### Hi I'm Alejandro :man_technologist:
 
