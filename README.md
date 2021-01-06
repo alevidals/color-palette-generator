@@ -22,7 +22,7 @@
 
 # Colorly
 
-Colorly is an app that generate a color scheme for you to use on your designs. You can export the colorscheme in to a pdf file.
+Colorly is an app that generate a colorscheme for you to use on your designs. You can export the colorscheme in to a pdf file.
 
 [instagram]: https://instagram.com/alevidalsanchez
 [linkedin]: https://linkedin.com/in/alejandro-vidal-sanchez
